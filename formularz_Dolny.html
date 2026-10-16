@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pl-PL">
 <head>
     <meta charset="utf-8">
@@ -17,26 +17,30 @@
         <tr>
             <td width="50%" valign="top">
                 <table border="0" cellpadding="2" cellspacing="0">
-                    <tr>
-                        <td>Imię:</td>
-                        <td><input type="text" name="imie" size="20"></td>
-                    </tr>
-                    <tr>
-                        <td>Miejsce zamieszkania:</td>
-                        <td><input type="text" name="miasto" size="20"></td>
-                    </tr>
-                    <tr>
-                        <td>Klasa:</td>
-                        <td><input type="text" name="klasa" size="20"></td>
-                    </tr>
-                    <tr>
-                        <td>Nr. w dzienniku:</td>
-                        <td><input type="text" name="nr" size="20"></td>
-                    </tr>
-                </table>
+                <tr>
+                <td>Imię:</td>
+                <td><input type="text" name="imie" size="20"></td>
+                </tr>
+                <tr>
+                <td>Miejsce zamieszkania:</td>
+                <td><input type="text" name="miasto" value="Gdańsk" size="20"></td>
+                </tr>
+                <tr>
+                    <td>Klasa:</td>
+                    <td><input type="text" name="klasa" size="20"></td>
+                </tr>
+                <tr>
+                    <td>Nr. w dzienniku:</td>
+                    <td><input type="text" name="nr" size="2" maxlength="2"></td>
+                </tr>
+                <tr>
+                    <td>Hasło:</td>
+                    <td><input type="password" name="haslo" size="50"></td>
+                </tr>
+            </table>
 
                 <p><b>Czy grałeś już w turnieju?</b></p>
-                <input type="radio" name="gra" value="tak"> Tak
+                <input type="radio" name="gra" value="tak" checked> Tak
                 <input type="radio" name="gra" value="nie"> Nie
                 <input type="radio" name="gra" value="nie wiem"> Nie wiem
 
@@ -61,28 +65,28 @@
 
                 <p><b>Platforma:</b></p>
                 <select name="platforma">
-                    <option value="">-- wybierz --</option>
-                    <option value="pc">PC</option>
-                    <option value="ps">PlayStation</option>
-                    <option value="xbox">Xbox</option>
-                    <option value="switch">Switch</option>
+                <option value="">-- wybierz --</option>
+                <option value="pc" selected>PC</option>
+                <option value="ps">PlayStation</option>
+                <option value="xbox">Xbox</option>
+                <option value="switch">Switch</option>
                 </select>
-            </td>
+                </td>
 
             <td width="50%" valign="top">
-                <p><b>Dlaczego chcesz wziąć udział?</b><br>
-                <textarea name="powod" rows="12" cols="30" style="resize: vertical, horizontal;"></textarea></p>
+            <p><b>Dlaczego chcesz wziąć udział?</b><br>
+            <textarea name="powod" rows="12" cols="30" style="resize: vertical, horizontal;"></textarea></p>
             </td>
         </tr>
 
         <tr>
             <td colspan="2" align="center">
-                <p>
-                    <input type="submit" value="Wyślij">
-                    <input type="reset" value="Wyczyść">
-                    <input type="button" value="INFO">
-                </p>
-            </td>
+            <p>
+            <input type="submit" value="Wyślij">
+            <input type="reset" value="Wyczyść">
+            <input type="button" value="INFO">
+            </p>
+        </td>
         </tr>
     </table>
 </form>
