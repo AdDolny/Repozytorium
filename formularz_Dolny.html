@@ -1,14 +1,99 @@
-<!DOCTYPE html>
-	<html lang="pl-PL">
-	<html>
-		<head>
- 			<meta charset="utf-8">
- 			<title> Formularz Dolny </title>
-		</head>
-<body>
-Tutaj jest tabela
- <A href ="formularzlink"> formularz ucznia 1P g1</A>
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <title>Formularz Dolny</title>
+	<form enctype="text/plain" action="AdamDolny24@gmail.com" subject="formularz_Dolny_1P_g1" method="Post"></form>
+</head>
+<body bgcolor="silver">
+
+<center>
+<form>
+    <table width="700" border="0" cellpadding="5" cellspacing="0">
+        <tr>
+            <td align="center" colspan="2"><font size="5"><b>FORMULARZ O ZAPISIE NA SZKOLNY TURNIEJ GIER</b></font></td>
+        </tr>
+
+        <tr>
+            <td width="50%" valign="top">
+                <table border="0" cellpadding="2" cellspacing="0">
+                    <tr>
+                        <td>Imię:</td>
+                        <td><input type="text" name="imie" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td>Miejsce zamieszkania:</td>
+                        <td><input type="text" name="miasto" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td>Klasa:</td>
+                        <td><input type="text" name="klasa" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td>Nr. w dzienniku:</td>
+                        <td><input type="text" name="nr" size="20"></td>
+                    </tr>
+                </table>
+
+                <p><b>Czy grałeś już w turnieju?</b></p>
+                <input type="radio" name="gra" value="tak"> Tak
+                <input type="radio" name="gra" value="nie"> Nie
+                <input type="radio" name="gra" value="nie wiem"> Nie wiem
+
+                <p><b>Typ gry:</b></p>
+                <input type="radio" name="typ" value="solo"> Solo
+                <input type="radio" name="typ" value="druzyna"> Drużyna
+
+                <p><b>Wybierz grę:</b></p>
+                <input type="checkbox" name="minecraft"> Minecraft
+                <input type="checkbox" name="fifa"> FIFA
+                <input type="checkbox" name="cs2"> CS2
+
+                <p><b>Ulubiony język programowania:</b></p>
+                <select name="jezyk">
+                    <option value="">-- wybierz --</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="csharp">C#</option>
+                    <option value="cpp">C++</option>
+                    <option value="html">HTML</option>
+                </select>
+
+                <p><b>Platforma:</b></p>
+                <select name="platforma">
+                    <option value="">-- wybierz --</option>
+                    <option value="pc">PC</option>
+                    <option value="ps">PlayStation</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="switch">Switch</option>
+                </select>
+            </td>
+
+            <td width="50%" valign="top">
+                <p><b>Dlaczego chcesz wziąć udział?</b><br>
+                <textarea name="powod" rows="12" cols="30" style="resize: vertical, horizontal;"></textarea></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <p>
+                    <input type="submit" value="Wyślij">
+                    <input type="reset" value="Wyczyść">
+                    <input type="button" value="INFO">
+                </p>
+            </td>
+        </tr>
+    </table>
+</form>
+</center>
+
 <br>
-<A HREF="index.html"> WRÓĆ </A>
+<p align="center">
+<a href="index.html">WRÓĆ</a><br><br>
+
+    Adam Dolny 1P grupa 1
+</p>
+
 </body>
 </html>
